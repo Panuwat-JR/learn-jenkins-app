@@ -1,6 +1,6 @@
 pipeline {
   environment {
-    VERCEL_PROJECT_NAME = 'Test-24'
+    VERCEL_PROJECT_NAME = 'PanuwatTest-24'
     VERCEL_TOKEN = credentials('PANUWATJR_ToKen') // ดึงจาก Jenkins
   }
   agent {
